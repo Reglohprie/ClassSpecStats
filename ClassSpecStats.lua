@@ -29,6 +29,27 @@ function stats_Frame:CreateWin()
             f:SetPoint("BOTTOMRIGHT",PaperDollFrame,"TOPRIGHT",0,0)
             f:SetParent(PaperDollFrame)
             f:Show()
+
+			local fw = stats_Window
+			fw:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+                    edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+                    tile = true, tileSize = 16, edgeSize = 16,
+                    insets = { left = 1, right = 1, top = 1, bottom = 1 }})
+            fw:SetBackdropColor(0,0,0,1)
+            fw:SetFrameStrata("TOOLTIP")
+            fw:SetWidth(PaperDollFrame:GetWidth()-50)
+			fw:SetHeight(25)
+
+			statsw_txt = fw:CreateFontString(nil,"OVERLAY","GameFontWhite")
+			local ftw = statsw_txt
+			ftw:ClearAllPoints()
+			ftw:SetAllPoints(stats_Window)
+			ftw:SetJustifyH("CENTER")
+			ftw:SetJustifyV("CENTER")
+            fw:ClearAllPoints()
+            fw:SetPoint("BOTTOMRIGHT",stats_Frame,"TOPRIGHT",0,-3)
+			fw:SetParent(stats_Frame)
+			fw:Show()
         end
         return true
     end
@@ -63,6 +84,7 @@ function stats_Frame:Update()
 			s = gsub(s,"Haste", L["Haste"])
 			s = gsub(s,"Mast", L["Mastery"])
 			-- H.Sch End for multiple language
+			statsw_txt:SetText("|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 5.11.2016|r")
             stats_txt:SetText(s)
         end
     end

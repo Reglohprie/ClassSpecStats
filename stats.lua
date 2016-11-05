@@ -51,7 +51,7 @@ x[257] = "Int > Mast > Crit > Haste > Vers"
 x[258] = "Balanced/Madness: Haste > Crit > Mast > Int > Vers \n Void/Mind Spike: Crit > Haste > Mast > Int > Vers"
 
 --[[ Rogue Assassination]]
-x[259] = "Agi > Mast > Crit > Vers > Haste"
+x[259] = "Standard: Agi > Mast > Crit > Vers > Haste \n Exsanguinate: Agi > Crit >= Vers > Mast > Haste"
 --[[ Rogue Outlaw]]
 x[260] = "Agi > Vers > Crit > Mast > Haste"
 --[[ Rogue Subtlety]]
