@@ -1,4 +1,4 @@
-local _, vars = ...;
+﻿local _, vars = ...;
 local Ld, La = {}, {}
 local locale = GetLocale()
 
@@ -25,4 +25,13 @@ if locale == "deDE" then do end
 	La["Sta"] = "Ausdauer"
 	La["Str"] = "St\195\164rke"
 	La["Vers"] = "Vielseitigk."
+elseif locale == "koKR" then do end
+	La["Agi"] = "민첩성"
+	La["Haste"] = "가속"
+	La["Crit"] = "치명타"
+	La["Int"] = "지능"
+	La["Mastery"] = "특화"
+	La["Sta"] = "체력"
+	La["Str"] = "힘"
+	La["Vers"] = "유연성"
 end
