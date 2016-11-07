@@ -34,4 +34,22 @@ elseif locale == "koKR" then do end
 	La["Sta"] = "체력"
 	La["Str"] = "힘"
 	La["Vers"] = "유연성"
+elseif locale == "zhCN" then do end
+	La["Agi"] = "敏捷"
+	La["Haste"] = "急速"
+	La["Crit"] = "暴击"
+	La["Int"] = "智力"
+	La["Mastery"] = "精通"
+	La["Sta"] = "耐力"
+	La["Str"] = "力量"
+	La["Vers"] = "全能"
+elseif locale == "zhTW" then do end
+	La["Agi"] = "敏捷"
+	La["Haste"] = "加速"
+	La["Crit"] = "致命"
+	La["Int"] = "智力"
+	La["Mastery"] = "精通"
+	La["Sta"] = "耐力"
+	La["Str"] = "力量"
+	La["Vers"] = "臨機"
 end
