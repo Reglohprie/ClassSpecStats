@@ -82,7 +82,7 @@ function stats_Frame:Update()
 			s = gsub(s,"Haste", L["Haste"])
 			s = gsub(s,"Mast", L["Mastery"])
 			-- H.Sch End for multiple language
-			statsw_txt:SetText("|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 5.11.2016|r")
+			statsw_txt:SetText("|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 9.11.2016|r")
             stats_txt:SetText(s)
         end
     end
