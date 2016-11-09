@@ -1,6 +1,6 @@
 local x = {}
 --[[ Deathknight Blood]]
-x[250] = "Balanced: Str > Haste > Crit >= Vers > Mast \n DPS Boost: Str > Haste Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
+x[250] = "Balanced: Str > Haste > Crit >= Vers > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
 --[[ Deathknight Frost]]
 x[251] = "Str > Haste 20% > Crit 25% > Vers > (Crit >= Haste 30%) > \n Mast > Haste"
 --[[ Deathknight Unholy]]
@@ -20,7 +20,7 @@ x[253] = "Agi > Mast > Haste > Crit > Vers"
 --[[ Hunter Marksmanship]]
 x[254] = "Mast > Agi > Haste > Crit > Vers"
 --[[ Hunter Survival]]
-x[255] = "Agi > Haste > Vers > Crit > Mast"
+x[255] = "Agi > Vers > Crit = Haste = Mast"
 
 --[[ Mage Arcane]]
 x[62] = "Int > Mast >= Crit > Vers > Haste"
