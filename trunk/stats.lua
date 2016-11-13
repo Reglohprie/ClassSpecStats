@@ -1,4 +1,6 @@
 local x = {}
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 13.11.2016|r"
+
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Crit >= Vers > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
 --[[ Deathknight Frost]]
@@ -81,5 +83,5 @@ x[73] = "Str > Haste 30% > Vers >= Mast > Crit > Stam"
 --[[ Demon Hunter Havoc]]
 x[577] = "Agi > Crit > Vers > Haste > Mast"
 --[[ Demon Hunter Vengeance]]
-x[581] = "Survival: Agi > Vers > Haste > Mast > Crit \n DPS Boost: Agi > Mast = Crit >= Vers >= Haste \n Dungeon: Agi > Mast > Crit > Vers > Haste"
+x[581] = "Survival: Agi > Vers > Haste > Mast > Crit \n DPS Boost: Agi > Crit >= Vers/Mast >= Haste \n Dungeon: Agi > Mast > Crit = Vers > Haste"
 stats_Table = x
