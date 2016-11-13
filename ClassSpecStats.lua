@@ -65,6 +65,7 @@ function stats_Frame:Update()
 
     if stats_Frame:CreateWin() then
         local s = stats_Table[specID]
+		local v = stats_Table["Version"]
 
         if s then
             s = gsub(s,"Strength","Str")
@@ -82,7 +83,7 @@ function stats_Frame:Update()
 			s = gsub(s,"Haste", L["Haste"])
 			s = gsub(s,"Mast", L["Mastery"])
 			-- H.Sch End for multiple language
-			statsw_txt:SetText("|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 9.11.2016|r")
+			statsw_txt:SetText(v)
             stats_txt:SetText(s)
         end
     end
