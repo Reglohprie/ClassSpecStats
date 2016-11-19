@@ -2,6 +2,13 @@ local _, vars = ...;
 local L = vars.L
 
 local name = "ClassSpecStats"
+local sFrameInit = false
+local pHooked = false
+local elapsedTime = 0
+
+local function CPrint(msg)
+	print("|cFF99FF99"..name..":|r "..msg)
+end
 
 stats_Frame = CreateFrame("Frame",stats_Frame,UIParent)
 
@@ -75,6 +82,7 @@ function stats_Frame:Update()
             s = gsub(s,"Versatility","Vers")
 
 			-- H.Sch For multiple language
+			s = gsub(s,"Int", L["Int"])
 			s = gsub(s,"Crit", L["Crit"])
 			s = gsub(s,"Str", L["Str"])
 			s = gsub(s,"Agi", L["Agi"])
@@ -86,6 +94,7 @@ function stats_Frame:Update()
 			statsw_txt:SetText(v)
             stats_txt:SetText(s)
         end
+		sFrameInit = true
     end
 end
 
@@ -94,13 +103,35 @@ f:RegisterEvent("SPELLS_CHANGED")
 f:RegisterEvent("ADDON_LOADED")
 f:SetScript("OnEvent", function(self, event, ...)
     if event == "ADDON_LOADED" and ... == name then
-        stats_Frame:Update()
-        PaperDollFrame:HookScript("OnShow", function() stats_Frame:Update() end)
-		print(name.." loaded!")
-    end
-    if event == "SPELLS_CHANGED" then
+		stats_Frame:Update()
+		PaperDollFrame:HookScript("OnShow", function() stats_Frame:Update() end)
+		pHooked = true
+		CPrint("loaded.")
+    elseif event == "SPELLS_CHANGED" then
         if IsAddOnLoaded(name) then
             stats_Frame:Update()
         end
     end
+end)
+
+local delayTimer = CreateFrame("Frame")
+delayTimer:SetScript("OnUpdate", function (self, elapsed)
+
+	elapsedTime = elapsedTime + elapsed
+
+	if (elapsedTime < 10) then
+		return
+	else
+		elapsedTime = 0
+	end
+
+	if not sFrameInit then
+		stats_Frame:Update()
+		if not pHooked then
+			PaperDollFrame:HookScript("OnShow", function() stats_Frame:Update() end)
+			pHooked = true
+			CPrint("loaded delayed!")
+		end
+	end
+
 end)
