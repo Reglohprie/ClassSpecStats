@@ -1,10 +1,10 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 02.04.2017|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 09.05.2017|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Vers > Crit > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
 --[[ Deathknight Frost]]
-x[251] = "Str > Haste 20% > Crit 25% > Vers > (Crit >= Haste 30%) > \n Mast > Haste"
+x[251] = "Str > Crit 20% > (Haste = Crit = Mast > Vers)"
 --[[ Deathknight Unholy]]
 x[252] = "Str > Mast > Haste 20% > Crit > Vers"
 
@@ -43,7 +43,7 @@ x[65] = "Int > Crit > Vers > Mast > Haste"
 --[[ Paladin Protection]]
 x[66] = "Survival: Haste > Vers > Mast > Crit > Stam \n DPS Boost: Haste > Crit > Mast > Vers > Stam"
 --[[ Paladin Retribution]]
-x[70] = "Str > Haste to 22% > Crit = Vers > Mast"
+x[70] = "Str > Haste > Crit = Vers > Mast"
 
 --[[ Priest Discipline]]
 x[256] = "Int > Haste > Crit > Mast > Vers"
