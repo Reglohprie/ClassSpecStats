@@ -90,6 +90,7 @@ function stats_Frame:Update()
 			s = gsub(s,"Vers", L["Vers"])
 			s = gsub(s,"Haste", L["Haste"])
 			s = gsub(s,"Mast", L["Mastery"])
+			s = gsub(s,"Armor", L["Armor"])
 			-- H.Sch End for multiple language
 			statsw_txt:SetText(v)
             stats_txt:SetText(s)
