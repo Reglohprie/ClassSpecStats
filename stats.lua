@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 14.06.2017|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 21.06.2017|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Vers > Crit > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
@@ -27,7 +27,7 @@ x[255] = "Agi > Haste > Mast > Crit > Vers"
 --[[ Mage Arcane]]
 x[62] = "Vers > Crit > Haste > Int > Mast"
 --[[ Mage Fire]]
-x[63] = "Crit > Int > Mast = Haste > Vers"
+x[63] = "Int > Crit >= Haste > Mast > Vers"
 --[[ Mage Fros]]
 x[64] = "Crit 33.34% > Int > Haste >  Vers > Mast"
 
@@ -55,7 +55,7 @@ x[258] = "Haste > Crit >= Mast > Vers > Int"
 --[[ Rogue Assassination]]
 x[259] = "Standard: Agi > Mast > Vers > Crit > Haste \n Exsanguinate: Agi > Vers > Crit > Mast > Haste"
 --[[ Rogue Outlaw]]
-x[260] = "Agi > Haste > Vers > Crit > Mast"
+x[260] = "Agi > Vers > Haste > Crit > Mast"
 --[[ Rogue Subtlety]]
 x[261] = "Agi > Mast > Vers > Crit > Haste"
 
@@ -67,11 +67,11 @@ x[263] = "Haste = Mast > Agi > Vers > Crit"
 x[264] = "Int > Mast > Crit > Haste > Vers"
 
 --[[ Warlock Affliction]]
-x[265] = "Mast > Haste > Crit > Int > Vers"
+x[265] = "Mast > Haste > Crit > Vers > Int"
 --[[ Warlock Demonology]]
-x[266] = "Haste > Crit > Mast > Int > Vers"
+x[266] = "Haste > Int > Crit = Mast > Vers"
 --[[ Warlock Destruction]]
-x[267] = "Int > Haste > Crit > Vers > Mast"
+x[267] = "Haste > Crit > Int > Vers > Mast"
 
 --[[ Warrior Arms]]
 x[71] = "Mast > Haste > Vers > Str > Crit"
