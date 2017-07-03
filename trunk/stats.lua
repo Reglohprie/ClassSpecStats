@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 21.06.2017|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 03.07.2017|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Vers > Crit > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit "
@@ -20,7 +20,7 @@ x[105] = "Raid: Int > Mast > Haste >= Crit > Vers \n Dungeon Mythic+: Mast >= Ha
 --[[ Hunter Beastmaster]]
 x[253] = "Agi > Mast > Haste > Crit > Vers"
 --[[ Hunter Marksmanship]]
-x[254] = "Mast > Agi > Crit > Haste > Vers"
+x[254] = "Mast > Crit > Haste > Vers > Agi"
 --[[ Hunter Survival]]
 x[255] = "Agi > Haste > Mast > Crit > Vers"
 
@@ -32,7 +32,7 @@ x[63] = "Int > Crit >= Haste > Mast > Vers"
 x[64] = "Crit 33.34% > Int > Haste >  Vers > Mast"
 
 --[[ Monk Brewmaster]]
-x[268] = "Haste to 10%-30% > (Mast = Vers >= Crit) > Agi"
+x[268] = "Haste to 10% > (Mast = Crit) > Vers > Haste > Agi"
 --[[ Monk Mistweaver]]
 x[270] = "Standard: Int > Crit > Vers > Haste > Mast \n Fist: Int > Vers > Haste >= Crit > Mast \n Dungeon Mythic+: Int > Haste = Mast > Vers > Crit"
 --[[ Monk Windwalker]]
@@ -60,11 +60,11 @@ x[260] = "Agi > Vers > Haste > Crit > Mast"
 x[261] = "Agi > Mast > Vers > Crit > Haste"
 
 --[[ Shaman Elemental]]
-x[262] = "Icefury: Int > Crit = Mast > Haste > Vers \n Ascend.: Int > Mast 86.5% > Crit > Haste > Vers \n Dugeons Mythic+: Int > Haste > Crit > Mast > Vers"
+x[262] = "Icefury: Int > Crit > Mast > Vers > Haste \n Ascend.: Int > Mast >= Crit > Haste > Vers"
 --[[ Shaman Enhancement]]
 x[263] = "Haste = Mast > Agi > Vers > Crit"
 --[[ Shaman Restoration]]
-x[264] = "Int > Mast > Crit > Haste > Vers"
+x[264] = "Int > Mast > Crit > Vers > Haste"
 
 --[[ Warlock Affliction]]
 x[265] = "Mast > Haste > Crit > Vers > Int"
