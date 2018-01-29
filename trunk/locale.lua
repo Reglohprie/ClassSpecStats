@@ -27,6 +27,16 @@ if locale == "deDE" then do end
 	La["Str"] = "St\195\164rke"
 	La["Vers"] = "Vielseitigk."
 	La["Armor"] = "R\195\188stung"
+elseif locale == "ruRU" then do end
+	La["Agi"] = "Ловкость"
+	La["Haste"] = "Скорость"
+	La["Crit"] = "Крит."
+	La["Int"] = "Интеллект"
+	La["Mastery"] = "Искустность"
+	La["Sta"] = "Выносливость"
+	La["Str"] = "Сила"
+	La["Vers"] = "Универсальность"
+	La["Armor"] = "Броня"
 elseif locale == "frFR" then do end
 	La["Agi"] = "Agi"
 	La["Haste"] = "Hâte"
