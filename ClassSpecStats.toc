@@ -2,7 +2,7 @@
 ## Title: ClassSpecStats
 ## Notes: Displays classes and specialisation dependent stat priorities provided by icy-veins.com 
 ## Author: Reglohpri
-## Version: 1.22
+## Version: 1.23
 
 locale.lua
 ClassSpecStats.lua

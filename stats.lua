@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 29.01.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 08.03.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Vers > Crit > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit"
@@ -60,7 +60,7 @@ x[260] = "(Vers = Haste) > Agi > Crit > Mast"
 x[261] = "Agi > (Mast >= Vers) > Crit > Haste"
 
 --[[ Shaman Elemental]]
-x[262] = "Icefury: Int > Crit > Haste (Mast = Vers) \n Ascend.: Int > Crit >  Mast > Haste > Vers"
+x[262] = "Icefury: Crit > Haste > Mast > Vers > Int \n Ascend.: Crit >  Mast > Haste > Vers > Int"
 --[[ Shaman Enhancement]]
 x[263] = "(Haste = Mast) > Vers > Crit > Agi"
 --[[ Shaman Restoration]]
