@@ -60,7 +60,7 @@ x[260] = "(Vers = Haste) > Agi > Crit > Mast"
 x[261] = "Agi > (Mast >= Vers) > Crit > Haste"
 
 --[[ Shaman Elemental]]
-x[262] = "Icefury: Crit > Haste > Mast > Vers > Int \n Ascend.: Crit >  Mast > Haste > Vers > Int"
+x[262] = "Icefury: Crit > Haste > Mast > Vers > Int \n Ascend.: Crit > Mast > Haste > Vers > Int"
 --[[ Shaman Enhancement]]
 x[263] = "(Haste = Mast) > Vers > Crit > Agi"
 --[[ Shaman Restoration]]
