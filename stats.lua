@@ -1,12 +1,12 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 07.04.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 01.06.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Balanced: Str > Haste > Vers > Crit > Mast \n DPS Boost: Str > Haste > Crit > Vers > Mast \n Survival: Str > Haste > Vers > Mast > Crit"
 --[[ Deathknight Frost]]
-x[251] = "Str > Mast 40% > (Haste 30% = Crit 30%) > Vers"
+x[251] = "Haste > Crit > Mast > Vers > Str"
 --[[ Deathknight Unholy]]
-x[252] = "Str > Haste 26% > Mast > Crit > Vers > Haste"
+x[252] = "Haste 25,2% > Mast > Crit > Haste > Str OR \n Haste 25,2% > Mast > Vers > Haste > Str"
 
 --[[ Druid Balance]]
 x[102] = "Single Target: (Mast = Haste) > (Crit = Vers) > Int \n Multi Target: Mast > Haste > (Crit = Vers) > Int"
@@ -18,7 +18,7 @@ x[104] = "Survival: Vers > Mast > Haste > Crit > Agi \n DPS Boost: (Haste >= Ver
 x[105] = "Raid: Mast > (Haste ~= Crit) > Vers > Int \n Dungeon Mythic+: Mast > Haste > Crit > Vers > Int"
 
 --[[ Hunter Beastmaster]]
-x[253] = "Crit > Haste > Mast > Vers"
+x[253] = "Stomp: Crit > Haste > Mast > Vers \n Dire Frenzy: Mast > Haste > Crit > Vers"
 --[[ Hunter Marksmanship]]
 x[254] = "Mast > Crit > Haste > Vers"
 --[[ Hunter Survival]]
