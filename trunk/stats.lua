@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 22.08.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 27.08.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Str > Haste > Vers > Mast > Crit"
@@ -57,7 +57,7 @@ x[259] = "Agi > Haste > Crit > Mast > Vers"
 --[[ Rogue Outlaw]]
 x[260] = "Agi > Haste > Vers > Crit > Mast"
 --[[ Rogue Subtlety]]
-x[261] = "Single Target: Agi > Crit > Mast > Haste > Vers \n Multi Target: Agi > Mast > Crit > Vers > Haste"
+x[261] = "Single Target: Agi > Crit > Haste > Mast > Vers \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 
 --[[ Shaman Elemental]]
 x[262] = "Int > Haste > Vers > Crit > Mast"
