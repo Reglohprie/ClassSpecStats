@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 27.08.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 04.09.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Str > Haste > Vers > Mast > Crit"
@@ -39,7 +39,7 @@ x[270] = "Raid: Int > Crit > Vers > Haste > Mast \n Dungeon Mythic+: Int > (Hast
 x[269] = "Agi > Vers > Mast > Crit > Haste"
 
 --[[ Paladin Holy]]
-x[65] = "Int > Crit > Haste > Vers > Mast"
+x[65] = "Int > Crit > Mast > Haste > Vers"
 --[[ Paladin Protection]]
 x[66] = "Haste > Mast > Vers > Crit"
 --[[ Paladin Retribution]]
@@ -48,9 +48,9 @@ x[70] = "Str > Haste > (Crit ~= Vers ~= Mast)"
 --[[ Priest Discipline]]
 x[256] = "Int > Haste > Crit > Mast > Vers"
 --[[ Priest Holy]]
-x[257] = "Raid: Int > Mast > Crit > Haste > Vers \n Dungeon: Int > Haste > (Crit = Vers) > Mast"
+x[257] = "Raid: Int > (Mast = Crit) > Vers > Haste \n Dungeon: Int > Crit > Haste > Vers > Mast"
 --[[ Priest Shadow]]
-x[258] = "Int > Haste > Crit > Mast > Vers"
+x[258] = "Int > (Haste = Crit) > Mast > Vers"
 
 --[[ Rogue Assassination]]
 x[259] = "Agi > Haste > Crit > Mast > Vers"
@@ -78,7 +78,7 @@ x[71] = "Str > Haste > Crit > Mast > Vers"
 --[[ Warrior Fury]]
 x[72] = "Str > Haste > Mast > Vers > Crit"
 --[[ Warrior Protection]]
-x[73] = "Haste > (Vers >= Mast) > Crit > Str"
+x[73] = "Haste > Vers > Armor > Mast > Crit > Str"
 
 --[[ Demon Hunter Havoc]]
 x[577] = "Agi > (Haste = Vers) > Crit > Mast"
