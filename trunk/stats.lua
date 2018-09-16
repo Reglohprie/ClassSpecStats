@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 16.09.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 17.09.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Str > Haste > Vers > Mast > Crit"
@@ -15,7 +15,7 @@ x[103] =  "Agi > Haste > Crit > Vers > Mast"
 --[[ Druid Guardian]]
 x[104] = "Survival: (Armor/Agi/Stam)>Mast>Vers>Haste>Crit \n DPS Boost: Agi > Haste >= Crit >= Vers >= Mast"
 --[[ Druid Restoration]]
-x[105] = "Raid: Int > (Mast = Haste = Crit > Vers) \n Dungeon: (Mast = Haste) Int > Vers > Crit"
+x[105] = "Raid: Int > (Haste = Crit = Vers) > Mast \n Dungeon: (Mast = Haste) Int > Vers > Crit"
 
 --[[ Hunter Beastmaster]]
 x[253] = "Single Target: Agi > Haste > Crit > Mast > Vers \n Multi Target: Agi > Mast > Haste > Crit > Vers"
