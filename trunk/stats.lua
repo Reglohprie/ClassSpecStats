@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 02.10.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 23.11.2018|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Str > Vers > Haste > Mast > Crit"
@@ -69,7 +69,7 @@ x[264] = "Int > Crit > Vers > (Haste = Mast)"
 --[[ Warlock Affliction]]
 x[265] = "Mast > Int > Haste > (Crit = Vers)"
 --[[ Warlock Demonology]]
-x[266] = "Int > Haste > (Crit = Mast) > Vers"
+x[266] = "Int > Haste > Crit > Vers > Mast"
 --[[ Warlock Destruction]]
 x[267] = "Int > Haste > (Crit = Mast) > Vers"
 
