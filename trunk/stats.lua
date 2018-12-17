@@ -1,17 +1,17 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 23.11.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 17.12.2018|r"
 
 --[[ Deathknight Blood]]
-x[250] = "Str > Vers > Haste > Mast > Crit"
+x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
 --[[ Deathknight Frost]]
 x[251] = "Str > Mast > Crit > Vers > Haste"
 --[[ Deathknight Unholy]]
 x[252] = "Str > Haste > (Crit / Vers) > Mast"
 
 --[[ Druid Balance]]
-x[102] = "Int > Haste > Crit > Vers > Mast"
+x[102] = "Int > Haste > Mast > Crit > Vers"
 --[[ Druid Feral]]
-x[103] =  "Agi > Haste > Crit > Vers > Mast"
+x[103] =  "Crit > Mast > Haste > Agi > Vers"
 --[[ Druid Guardian]]
 x[104] = "Survival: (Armor/Agi/Stam)>Mast>Vers>Haste>Crit \n DPS Boost: Agi > Haste >= Crit >= Vers >= Mast"
 --[[ Druid Restoration]]
@@ -20,7 +20,7 @@ x[105] = "Raid: Int > (Haste = Crit = Vers) > Mast \n Dungeon: (Mast = Haste) In
 --[[ Hunter Beastmaster]]
 x[253] = "Single Target: Agi > Haste > Crit > Mast > Vers \n Multi Target: Agi > Mast > Haste > Crit > Vers"
 --[[ Hunter Marksmanship]]
-x[254] = "Single Target: Agi > Haste > Mast > Vers > Crit \n Multi Target: Agi > Mast > Haste > Crit > Vers"
+x[254] = "Single Target: Agi > Mast > Haste > Crit > Vers \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 --[[ Hunter Survival]]
 x[255] = "Single Target: Agi > Haste > Crit > Vers > Mast \n Multi Target: Agi > Haste > Crit > Vers > Mast"
 
@@ -34,7 +34,7 @@ x[64] = "Int > Crit 33.34% > Haste > Vers > Mast > Crit"
 --[[ Monk Brewmaster]]
 x[268] = "Agi > (Crit = Vers = Mast) > Haste"
 --[[ Monk Mistweaver]]
-x[270] = "Raid: Int > Crit > Vers > Haste > Mast \n Dungeon Mythic+: Int > (Haste = Mast) > Vers > Crit"
+x[270] = "Raid: Int > Crit > (Mast = Vers) > Haste \n Dungeon Mythic+: Int > (Mast >= Haste) > Vers > Crit"
 --[[ Monk Windwalker]]
 x[269] = "Agi > Vers > Mast > Crit > Haste"
 
@@ -46,7 +46,7 @@ x[66] = "Haste > Mast > Vers > Crit"
 x[70] = "Str > Haste > (Crit ~= Vers ~= Mast)"
 
 --[[ Priest Discipline]]
-x[256] = "Int > Haste > Crit > Mast > Vers"
+x[256] = "Int > Haste > Crit > Vers > Mast"
 --[[ Priest Holy]]
 x[257] = "Raid: Int > (Mast = Crit) > Vers > Haste \n Dungeon: Int > Crit > Haste > Vers > Mast"
 --[[ Priest Shadow]]
@@ -57,10 +57,10 @@ x[259] = "Agi > Haste > Crit > Mast > Vers"
 --[[ Rogue Outlaw]]
 x[260] = "Agi > Haste > Vers > Crit > Mast"
 --[[ Rogue Subtlety]]
-x[261] = "Single Target: Agi > Crit > Haste > Mast > Vers \n Multi Target: Agi > Mast > Crit > Vers > Haste"
+x[261] = "Single Target: Agi > Vers > Crit > Mast > Haste \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 
 --[[ Shaman Elemental]]
-x[262] = "Int > Haste > Vers > Crit > Mast"
+x[262] = "Int > Crit > Haste > Vers > Mast"
 --[[ Shaman Enhancement]]
 x[263] = "Agi > Haste > (Crit = Vers) > Mast"
 --[[ Shaman Restoration]]
