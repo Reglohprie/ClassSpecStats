@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 17.12.2018|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 23.01.2019|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
@@ -18,7 +18,7 @@ x[104] = "Survival: (Armor/Agi/Stam)>Mast>Vers>Haste>Crit \n DPS Boost: Agi > Ha
 x[105] = "Raid: Int > (Haste = Crit = Vers) > Mast \n Dungeon: (Mast = Haste) Int > Vers > Crit"
 
 --[[ Hunter Beastmaster]]
-x[253] = "Single Target: Agi > Haste > Crit > Mast > Vers \n Multi Target: Agi > Mast > Haste > Crit > Vers"
+x[253] = "Single Target: Agi > Crit > Haste > Mast > Vers \n Multi Target: Agi > Mast > Haste > Crit > Vers"
 --[[ Hunter Marksmanship]]
 x[254] = "Single Target: Agi > Mast > Haste > Crit > Vers \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 --[[ Hunter Survival]]
@@ -55,14 +55,14 @@ x[258] = "Int > (Haste = Crit) > Mast > Vers"
 --[[ Rogue Assassination]]
 x[259] = "Agi > Haste > Crit > Mast > Vers"
 --[[ Rogue Outlaw]]
-x[260] = "Agi > Haste > Vers > Crit > Mast"
+x[260] = "Agi > Crit > Haste > Vers > Mast"
 --[[ Rogue Subtlety]]
 x[261] = "Single Target: Agi > Vers > Crit > Mast > Haste \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 
 --[[ Shaman Elemental]]
 x[262] = "Int > Crit > Haste > Vers > Mast"
 --[[ Shaman Enhancement]]
-x[263] = "Agi > Haste > (Crit = Vers) > Mast"
+x[263] = "Non Azerite Dependent: Haste > (Crit = Vers) > Mast > Agi"
 --[[ Shaman Restoration]]
 x[264] = "Int > Crit > Vers > (Haste = Mast)"
 
@@ -74,9 +74,9 @@ x[266] = "Int > Haste > Crit > Vers > Mast"
 x[267] = "Int > Haste > (Crit = Mast) > Vers"
 
 --[[ Warrior Arms]]
-x[71] = "Str > Haste > Crit > Mast > Vers"
+x[71] = "Haste > Crit > Vers > Mast > Str"
 --[[ Warrior Fury]]
-x[72] = "Str > Haste > Mast > Vers > Crit"
+x[72] = "Crit > Mast > Haste > Vers > Str"
 --[[ Warrior Protection]]
 x[73] = "Haste > Armor > Vers > Mast > Crit > Str"
 
