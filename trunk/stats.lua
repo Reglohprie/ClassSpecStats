@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 23.01.2019|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 05.02.2019|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
@@ -50,7 +50,7 @@ x[256] = "Int > Haste > Crit > Vers > Mast"
 --[[ Priest Holy]]
 x[257] = "Raid: Int > (Mast = Crit) > Vers > Haste \n Dungeon: Int > Crit > Haste > Vers > Mast"
 --[[ Priest Shadow]]
-x[258] = "Int > (Haste = Crit) > Mast > Vers"
+x[258] = "(Haste = Crit) > Int > Mast > Vers"
 
 --[[ Rogue Assassination]]
 x[259] = "Agi > Haste > Crit > Mast > Vers"
@@ -71,7 +71,7 @@ x[265] = "Mast > Int > Haste > (Crit = Vers)"
 --[[ Warlock Demonology]]
 x[266] = "Int > Haste > Crit > Vers > Mast"
 --[[ Warlock Destruction]]
-x[267] = "Int > Haste > (Crit = Mast) > Vers"
+x[267] = "(Haste = Mast) > Crit > Int > Vers"
 
 --[[ Warrior Arms]]
 x[71] = "Haste > Crit > Vers > Mast > Str"
