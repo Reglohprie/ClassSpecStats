@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 04.03.2019|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 14.03.2019|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
@@ -32,7 +32,7 @@ x[63] = "Int > Mast > Vers > Haste > Crit"
 x[64] = "Int > Crit 33.34% > Haste > Vers > Mast > Crit"
 
 --[[ Monk Brewmaster]]
-x[268] = "Agi > (Crit = Vers = Mast) > Haste"
+x[268] = "Agi > Mast > (Crit = Vers) > Haste"
 --[[ Monk Mistweaver]]
 x[270] = "Raid: Int > Crit > (Mast = Vers) > Haste \n Dungeon Mythic+: Int > (Mast >= Haste) > Vers > Crit"
 --[[ Monk Windwalker]]
@@ -60,7 +60,7 @@ x[260] = "Agi > Crit > Haste > Vers > Mast"
 x[261] = "Single Target: Agi > Vers > Crit > Mast > Haste \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 
 --[[ Shaman Elemental]]
-x[262] = "Int > Crit > Haste > Vers > Mast"
+x[262] = "Int > Vers > Crit > Haste > Mast"
 --[[ Shaman Enhancement]]
 x[263] = "Non Azerite Dependent: Haste > (Crit = Vers) > Mast > Agi"
 --[[ Shaman Restoration]]
