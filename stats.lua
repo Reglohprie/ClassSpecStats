@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 23.04.2019|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 09.06.2019|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
@@ -9,9 +9,9 @@ x[251] = "Str > Mast > Crit > Vers > Haste"
 x[252] = "Str > Haste > (Crit / Vers) > Mast"
 
 --[[ Druid Balance]]
-x[102] = "Int > Haste > Mast > Crit > Vers"
+x[102] = "Haste > Mast > Crit > Vers > Int"
 --[[ Druid Feral]]
-x[103] =  "Crit > Mast > Haste > Agi > Vers"
+x[103] =  "Crit > Mast > Vers > Haste > Agi"
 --[[ Druid Guardian]]
 x[104] = "Survival: (Armor/Agi/Stam)>Vers>Mast>Haste>Crit \n DPS Boost: Agi > Haste >= Crit >= Vers >= Mast"
 --[[ Druid Restoration]]
@@ -48,7 +48,7 @@ x[70] = "Str > Haste > (Crit ~= Vers ~= Mast)"
 --[[ Priest Discipline]]
 x[256] = "Int > Haste > Crit > Vers > Mast"
 --[[ Priest Holy]]
-x[257] = "Raid: Int > (Mast = Crit) > Vers > Haste \n Dungeon: Int > Crit > Haste > Vers > Mast"
+x[257] = "Raid: (Mast = Crit) > Vers > Int > Haste \n Dungeon: Crit > Haste > Vers > Int > Mast"
 --[[ Priest Shadow]]
 x[258] = "(Haste = Crit) > (Mast = Vers) > Int"
 
