@@ -1,5 +1,5 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 20.07.2019|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 12.08.2019|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
@@ -39,7 +39,7 @@ x[270] = "Raid: Crit > (Mast = Vers) > Int > Haste \n Dungeon Mythic+: Int > (Ma
 x[269] = "Agi > Vers > Mast > Crit > Haste"
 
 --[[ Paladin Holy]]
-x[65] = "Int > Crit > Mast > Haste > Vers"
+x[65] = "Crit > Haste > Vers > Mast > Int"
 --[[ Paladin Protection]]
 x[66] = "Haste > Mast > Vers > Crit"
 --[[ Paladin Retribution]]
@@ -67,11 +67,11 @@ x[263] = "Non Azerite Dependent: Haste > Mast > (Crit = Vers) > Agi"
 x[264] = "Int > Crit > Vers > (Haste = Mast)"
 
 --[[ Warlock Affliction]]
-x[265] = "Mast > Int > Haste > (Crit = Vers)"
+x[265] = "(Haste = Mast) > Crit > Vers > Int"
 --[[ Warlock Demonology]]
-x[266] = "Int > Haste > Crit > Vers > Mast"
+x[266] = "Haste > (Mast = Crit) > Vers > Int"
 --[[ Warlock Destruction]]
-x[267] = "(Mast >= Haste) > Crit > Int > Vers"
+x[267] = "(Mast >= Haste) > Crit > Vers > Int"
 
 --[[ Warrior Arms]]
 x[71] = "Haste > Crit > Vers > Mast > Str"
