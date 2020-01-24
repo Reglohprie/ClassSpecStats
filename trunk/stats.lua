@@ -1,21 +1,21 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 28.11.2019|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 24.01.2020|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
 --[[ Deathknight Frost]]
-x[251] = "Str > Vers > Mast > Crit > Haste"
+x[251] = "Str > Crit > Mast > Vers > Haste"
 --[[ Deathknight Unholy]]
 x[252] = "Str > Haste > (Crit / Vers) > Mast"
 
 --[[ Druid Balance]]
-x[102] = "(Haste = Crit) > Vers > Mast > Int"
+x[102] = "Single Target: (Haste = Crit) > Vers > Mast > Int \n Multiple Target: Haste > Mast > Crit > Vers > Int"
 --[[ Druid Feral]]
 x[103] =  "Crit > Mast > Vers > Haste > Agi"
 --[[ Druid Guardian]]
 x[104] = "Survival: (Armor/Agi/Stam)>Vers>Mast>Haste>Crit \n DPS Boost: Agi > Vers >= Haste >= Crit > Mast"
 --[[ Druid Restoration]]
-x[105] = "Raid: Mast > (Haste = Crit = Vers) > Int \n Dungeon: (Mast = Haste) > Vers > Crit > Int"
+x[105] = "Raid: (Mast = Haste = Crit = Vers) > Int \n Dungeon: (Mast = Haste) > Vers > Crit > Int"
 
 --[[ Hunter Beastmaster]]
 x[253] = "Agi > Crit > (Haste / Vers) > Mast"
@@ -34,7 +34,7 @@ x[64] = "Mast > Crit 33.34% > Haste > Vers > Int > Crit"
 --[[ Monk Brewmaster]]
 x[268] = "Agi > Mast > (Crit = Vers) > Haste"
 --[[ Monk Mistweaver]]
-x[270] = "Raid: Crit > (Mast = Vers) > Int > Haste \n Dungeon Mythic+: Int > (Mast >= Haste) > Vers > Crit"
+x[270] = "Raid: Crit > (Mast = Vers) > Int > Haste \n Dungeon Mythic+: Int > Crit > (Mast = Vers >= Haste)"
 --[[ Monk Windwalker]]
 x[269] = "Agi > Vers > Mast > Crit > Haste"
 
@@ -57,12 +57,12 @@ x[259] = "Raid: Haste > (Crit = Mast) > Vers > Agi \n Dungeon Mythic+: Crit 35-4
 --[[ Rogue Outlaw]]
 x[260] = "Agi > Crit > Vers > Haste > Mast"
 --[[ Rogue Subtlety]]
-x[261] = "Single Target: Agi > Crit > Vers > Haste > Mast \n Multi Target: Agi > Mast > Crit > Vers > Haste"
+x[261] = "Single Target: Agi > Crit > Vers > Mast > Haste \n Multi Target: Agi > Mast > Crit > Vers > Haste"
 
 --[[ Shaman Elemental]]
 x[262] = "Int > Vers > Crit > Haste > Mast"
 --[[ Shaman Enhancement]]
-x[263] = "Non Azerite Dependent: Haste > Mast > (Crit = Vers) > Agi"
+x[263] = "Haste > (Crit = Vers) > Mast > Agi"
 --[[ Shaman Restoration]]
 x[264] = "Int > Crit > Vers > (Haste = Mast)"
 
@@ -74,14 +74,14 @@ x[266] = "Haste > (Mast = Crit) > Vers > Int"
 x[267] = "(Mast >= Haste) > Crit > Vers > Int"
 
 --[[ Warrior Arms]]
-x[71] = "Haste > Crit > Vers > Mast > Str"
+x[71] = "Haste > Crit > Mast > Vers > Str"
 --[[ Warrior Fury]]
 x[72] = "Crit > Mast > Haste > Vers > Str"
 --[[ Warrior Protection]]
-x[73] = "Haste > Vers > Mast > Crit > Str > Armor"
+x[73] = "General: Haste > Vers > Mast > Crit > Str > Armor \n Mythic+: Haste > Crit > Vers > Mast > Str > Armor"
 
 --[[ Demon Hunter Havoc]]
 x[577] = "Vers > (Crit = Haste) > Agi > Mast"
 --[[ Demon Hunter Vengeance]]
-x[581] = "Agi > Haste > Vers > Mast > Crit"
+x[581] = "Agi > (Haste >= Vers) > Mast > Crit"
 stats_Table = x
