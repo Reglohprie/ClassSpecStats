@@ -10,18 +10,33 @@ local function CPrint(msg)
 	print("|cFF99FF99"..name..":|r "..msg)
 end
 
-stats_Frame = CreateFrame("Frame",stats_Frame,UIParent)
+-- Changed for Patch 9.0.1 - Shadowlands
+--stats_Frame = CreateFrame("Frame",stats_Frame,UIParent)
+stats_Frame = CreateFrame("Frame",stats_Frame,UIParent,"BackdropTemplate")
 
 function stats_Frame:CreateWin()
     if PaperDollFrame:IsVisible() then
         if not stats_Window then
-            stats_Window = CreateFrame("Frame",stats_Window,stats_Frame)
-            local f = stats_Frame
-			f:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+			-- Changed for Patch 9.0.1 - Shadowlands
+            --stats_Window = CreateFrame("Frame",stats_Window,stats_Frame)
+			stats_Window = CreateFrame("Frame",stats_Window,stats_Frame,"BackdropTemplate")
+
+			local f = stats_Frame
+			-- Changed for Patch 9.0.1 - Shadowlands
+			--[[f:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",
                     edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
                     tile = true, tileSize = 16, edgeSize = 16,
-                    insets = { left = 1, right = 1, top = 1, bottom = 1 }})
-            f:SetBackdropColor(0,0,0,1)
+                    insets = { left = 1, right = 1, top = 1, bottom = 1 }})--]]
+
+			f.backdropInfo = {bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+                    edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+                    tile = true, tileSize = 16, edgeSize = 16,
+                    insets = { left = 1, right = 1, top = 1, bottom = 1 }}
+
+			f:ApplyBackdrop()
+			-- Ende for Patch 9.0.1
+
+			f:SetBackdropColor(0,0,0,1)
             f:SetFrameStrata("TOOLTIP")
             f:SetWidth(PaperDollFrame:GetWidth()-50)
 			f:SetHeight(45)
@@ -38,10 +53,20 @@ function stats_Frame:CreateWin()
             f:Show()
 
 			local fw = stats_Window
-			fw:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+			-- Changed for Patch 9.0.1 - Shadowlands
+			--[[fw:SetBackdrop({bgFile = "Interface/Tooltips/UI-Tooltip-Background",
                     edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
                     tile = true, tileSize = 16, edgeSize = 16,
-                    insets = { left = 1, right = 1, top = 1, bottom = 1 }})
+                    insets = { left = 1, right = 1, top = 1, bottom = 1 }})--]]
+
+			fw.backdropInfo = {bgFile = "Interface/Tooltips/UI-Tooltip-Background",
+                    edgeFile = "Interface/Tooltips/UI-Tooltip-Border",
+                    tile = true, tileSize = 16, edgeSize = 16,
+                    insets = { left = 1, right = 1, top = 1, bottom = 1 }}
+
+			fw:ApplyBackdrop()
+			-- Ende for Patch 9.0.1
+
             fw:SetBackdropColor(0,0,0,1)
             fw:SetFrameStrata("TOOLTIP")
             fw:SetWidth(PaperDollFrame:GetWidth()-50)
