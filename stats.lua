@@ -1,10 +1,10 @@
 local x = {}
-x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 21.01.2021|r"
+x["Version"] = "|cFFFAFA44Icy-Veins Stat Priorities:|cFF00EA00 07.03.2021|r"
 
 --[[ Deathknight Blood]]
 x[250] = "Item Level > Str > Vers > Haste > Crit > Mast"
 --[[ Deathknight Frost]]
-x[251] = "Str > Mast > Crit > Vers > Haste"
+x[251] = "Str > Mast > Crit > Haste > Vers"
 --[[ Deathknight Unholy]]
 x[252] = "Str > Mast > Haste > (Crit / Vers)"
 
@@ -18,9 +18,9 @@ x[104] = "Survival: (Armor/Agi/Stam)>Vers>Mast>Haste>Crit \n DPS Boost: Agi > Ve
 x[105] = "Raid: Int > Haste > (Mast = Crit = Vers) \n Dungeon: Int > (Mast = Haste) > Vers > Crit"
 
 --[[ Hunter Beastmaster]]
-x[253] = "Agi > Haste > Crit > Vers > Mast"
+x[253] = "Agi > Haste > (Crit / Vers) > Mast"
 --[[ Hunter Marksmanship]]
-x[254] = "Agi > Crit > Mast > Vers > Haste"
+x[254] = "Agi > Crit > Mast > (Vers / Haste)"
 --[[ Hunter Survival]]
 x[255] = "Agi > Haste > (Vers / Crit) > Mast"
 
@@ -55,7 +55,7 @@ x[258] = "Int > (Haste = Mast) > Crit > Vers"
 --[[ Rogue Assassination]]
 x[259] = "Raid: Haste > Crit > Vers > Mast > Agi \n Dungeon Mythic+: Crit > Vers > Mast > Haste > Agi"
 --[[ Rogue Outlaw]]
-x[260] = "Agi > Vers > Haste > Crit > Mast"
+x[260] = "Raid: Agi > Vers > Haste > Crit > Mast \n Dungeon Mythic+: Agi > Vers > Crit > Haste > Mast"
 --[[ Rogue Subtlety]]
 x[261] = "Single Target: Agi > Vers > Crit > Haste > Mast \n Multi Target: Agi > Crit > Vers > Mast > Haste"
 
@@ -74,7 +74,7 @@ x[266] = "Int > Haste > Mast > (Crit = Vers)"
 x[267] = "Int > (Haste >= Mast) > Crit > Vers"
 
 --[[ Warrior Arms]]
-x[71] = "Str > Haste 20% > Crit > Mast > Vers > Haste"
+x[71] = "Str > Crit > Mast > Vers > Haste"
 --[[ Warrior Fury]]
 x[72] = "Str > Haste > Mast > Crit > Vers"
 --[[ Warrior Protection]]
