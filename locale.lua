@@ -32,7 +32,7 @@ elseif locale == "ruRU" then do end
 	La["Haste"] = "Скорость"
 	La["Crit"] = "Крит."
 	La["Int"] = "Интеллект"
-	La["Mastery"] = "Искустность"
+	La["Mastery"] = "Искусность"
 	La["Sta"] = "Выносливость"
 	La["Str"] = "Сила"
 	La["Vers"] = "Универсальность"
